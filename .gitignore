@@ -1,0 +1,30 @@
+# Terraform working directory (providers and modules downloaded by terraform init)
+**/.terraform/*
+
+# State files: contain resource details and can hold sensitive values
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Plan output files
+*.tfplan
+tfplan
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
